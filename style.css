@@ -1,0 +1,93 @@
+#title {
+  text-align: center;
+  color: white;
+  margin-top: -10px;
+  margin-left: -5px;
+  margin-right: -5px;
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+}
+#title:hover {
+  text-align: center;
+  color: white;
+  margin-top: -10px;
+  margin-left: -5px;
+  margin-right: -5px;
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center;
+  background: #141100;
+}
+
+#pic {
+  width: 100%;
+  length: 85%;
+}
+#pic:hover {
+  width: 100%;
+  length: 85%;
+  background: url("data:image/png;base64,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");
+}
+#wholepage {
+  background: #141100;
+}
+#superlative {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+#quote {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+#name {
+  color: white;
+  font-family: "Acme", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+#back {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 24px;
+  border-radius: 50%;
+}
+#next {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 24px;
+  border-radius: 50%;
+}
+#random{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 24px;
+  border-radius: 50%;
+}
+#back:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  background-color: #555555;
+}
+#next:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  background-color: #555555;
+}
+#random:hover{
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+  background-color: #555555;
+}
